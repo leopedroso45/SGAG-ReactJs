@@ -1,16 +1,16 @@
 {
-  "name": "material-kit-react",
+  "name": "sgag",
   "version": "1.8.0",
-  "description": "Material Kit React. Coded by Creative Tim",
+  "description": "Sistema para Gerenciamento de Atividades de Graduação.",
   "private": true,
   "main": "dist/index.js",
   "dependencies": {
-    "@material-ui/core": "4.3.2",
+    "@material-ui/core": "^4.3.2",
     "@material-ui/icons": "4.2.1",
+    "axios": "^0.19.0",
     "classnames": "2.2.6",
     "history": "4.9.0",
-    "moment": "2.24.0",
-    "node-sass": "4.12.0",
+    "material-table": "^1.52.0",
     "nouislider": "14.0.2",
     "prop-types": "15.7.2",
     "react": "16.9.0",
@@ -29,13 +29,9 @@
     "eslint-config-prettier": "6.0.0",
     "eslint-plugin-prettier": "3.1.0",
     "eslint-plugin-react": "7.14.3",
-    "gulp": "4.0.2",
-    "gulp-append-prepend": "1.0.8",
     "prettier": "1.18.2"
   },
-  "optionalDependencies": {
-    "typescript": "3.5.3"
-  },
+  "optionalDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
